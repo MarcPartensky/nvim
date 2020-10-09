@@ -3,19 +3,19 @@ let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 
-snippet sign 'Signature'
-Cordialement,
+"snippet sign 'Signature'
+"Cordialement,
 
-Marc Partensky
-endsnippet
+"Marc Partensky
+"endsnippet
 
-snippet today "Date"
-`date +%F`
-endsnippet
+"snippet today "Date"
+"`date +%F`
+"endsnippet
 
-snippet box "Box"
-`!p snip.rv = '┌' + '─' * (len(t[1]) + 2) + '┐'`
-│ $1 │
-`!p snip.rv = '└' + '─' * (len(t[1]) + 2) + '┘'`
-$0
-endsnippet
+"snippet box "Box"
+"`!p snip.rv = '┌' + '─' * (len(t[1]) + 2) + '┐'`
+"│ $1 │
+"`!p snip.rv = '└' + '─' * (len(t[1]) + 2) + '┘'`
+"$0
+"endsnippet
