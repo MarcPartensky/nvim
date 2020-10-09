@@ -126,6 +126,9 @@ Plug 'lervag/vimtex'
 "snippets maker
 Plug 'sirver/ultisnips'
 
+"vim-snippets
+Plug 'honza/vim-snippets'
+
 ""kite plugin (very aggressive plugin)
 "Plug 'kiteco/vim-plugin'
 
