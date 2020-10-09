@@ -23,7 +23,7 @@ Then type the following:
 
 **That's it!**
 
-## Project files tree
+## Project file tree
 
 ```tree
 ├── LICENSE
