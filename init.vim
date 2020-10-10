@@ -8,7 +8,7 @@ source $HOME/.config/nvim/general/navigation.vim
 source $HOME/.config/nvim/general/theme.vim
 source $HOME/.config/nvim/general/mapping.vim
 source $HOME/.config/nvim/general/options.vim
-source $HOME.config/nvim/general/spell-checking.vim
+source $HOME/.config/nvim/general/spell-checking.vim
 
 "couldn't get this one to work
 "source $HOME/.config/nvim/plugins/vim-which-key.vim
