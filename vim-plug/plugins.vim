@@ -106,7 +106,7 @@ Plug 'skywind3000/vim-preview'
 Plug 'ryanoasis/vim-devicons'
 
 "add image preview in terminal (not working for now)
-Plug 'ashisha/image.vim'
+"Plug 'ashhisha/image.vim'
 
 "swap between windows
 Plug 'wesQ3/vim-windowswap'
@@ -129,7 +129,10 @@ Plug 'sirver/ultisnips'
 "vim-snippets
 Plug 'honza/vim-snippets'
 
-""kite plugin (very aggressive plugin)
+"disable highlighting when done searching
+Plug 'romainl/vim-cool'
+
+"kite plugin (very aggressive plugin)
 "Plug 'kiteco/vim-plugin'
 
 "Basic autocompletion
