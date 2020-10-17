@@ -132,6 +132,9 @@ Plug 'honza/vim-snippets'
 "disable highlighting when done searching
 Plug 'romainl/vim-cool'
 
+"embed vim in a browser
+"Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+
 "kite plugin (very aggressive plugin)
 "Plug 'kiteco/vim-plugin'
 
