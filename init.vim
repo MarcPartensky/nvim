@@ -9,7 +9,6 @@ source $HOME/.config/nvim/general/theme.vim
 source $HOME/.config/nvim/general/mapping.vim
 source $HOME/.config/nvim/general/options.vim
 source $HOME/.config/nvim/general/spell-checking.vim
-source $HOME/.config/nvim/general/markdown-preview.vim
 source $HOME/.config/nvim/general/tabs.vim
 
 "couldn't get this one to work
@@ -19,4 +18,5 @@ source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/vim-hexokinase.vim
 source $HOME/.config/nvim/plugins/vimtex.vim
 source $HOME/.config/nvim/plugins/ultisnips.vim
+source $HOME/.config/nvim/plugins/markdown-preview.vim
 
