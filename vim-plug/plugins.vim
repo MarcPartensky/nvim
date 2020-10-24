@@ -135,6 +135,9 @@ Plug 'romainl/vim-cool'
 "R development
 Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
 
+"Grammar correction
+Plug 'rhysd/vim-grammarous'
+
 "embed vim in a browser
 "Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
