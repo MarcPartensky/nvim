@@ -18,8 +18,8 @@ let ayucolor="mirage" " for mirage version of theme
 "colorscheme ayu
 "colorscheme codedark
 "colorscheme deep-space
-"colorscheme one
-colorscheme Atom
+colorscheme one
+"colorscheme Atom
 
 " Themes
 "source $HOME/.config/nvim/themes/syntax.vim
