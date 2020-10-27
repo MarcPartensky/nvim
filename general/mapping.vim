@@ -1,5 +1,7 @@
 "toggle the nerdtree filemanager
 map <C-o> :NERDTreeToggle<CR>
+nmap <C-_> :Commentary<CR>
+vmap <C-_>   <Plug>Commentary<CR>gv
 
 "show the date when pressing f2
 map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
@@ -9,9 +11,9 @@ map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
 
 "show the date when saving the buffer
-augroup SAVING
-    autocmd BufWritePost * echo strftime('%c')
-augroup END
+" augroup SAVING
+"     autocmd BufWritePost * echo strftime('%c')
+" augroup END
 
 "nnoremap <silent> <C-S> :<C-u>Update<CR>
 

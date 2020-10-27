@@ -43,7 +43,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'ntpeters/vim-better-whitespace'
 
 "comments macro
-Plug 'scrooloose/nerdcommenter'
+"Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-commentary'
 
 "keybindings in popup
 Plug 'liuchengxu/vim-which-key'
