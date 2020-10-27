@@ -9,7 +9,18 @@ vmap <C-_>   <Plug>Commentary<CR>gv
 "show the date when pressing f2
 map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
+
 " git shortcut
+
+" commit
+:command -nargs=+ Gc :! git add -A; git commit -m "<args>"
+nmap gc :Gc 
+
+" push
+:command Gp :!git push
+nmap gp :!git push
+
+" commit and push
 :command -nargs=+ Gt :! git add -A; git commit -m "<args>"; git push
 nmap gt :Gt 
 
