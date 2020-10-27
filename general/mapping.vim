@@ -24,6 +24,8 @@ nmap gp :Gp
 :command -nargs=+ Gt :! git add -A; git commit -m "<args>"; git push
 nmap gt :Gt 
 
+
+
 "echo current activity
 "map <F3> :python /Users/marcpartensky/programs/python/repository-2020/isep-hyperplanning.py<CR>
 

@@ -125,7 +125,7 @@ Plug 'airblade/vim-rooter'
 Plug 'lervag/vimtex'
 
 "snippets maker
-Plug 'sirver/ultisnips'
+" Plug 'sirver/ultisnips'
 
 "vim-snippets
 Plug 'honza/vim-snippets'
