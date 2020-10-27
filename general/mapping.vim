@@ -18,7 +18,7 @@ nmap gc :Gc
 
 " push
 :command Gp :!git push
-nmap gp :!git push
+nmap gp :Gp
 
 " commit and push
 :command -nargs=+ Gt :! git add -A; git commit -m "<args>"; git push
