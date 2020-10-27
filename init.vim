@@ -19,4 +19,5 @@ source $HOME/.config/nvim/plugins/vim-hexokinase.vim
 source $HOME/.config/nvim/plugins/vimtex.vim
 source $HOME/.config/nvim/plugins/ultisnips.vim
 source $HOME/.config/nvim/plugins/markdown-preview.vim
+source $HOME/.config/nvim/plugins/r.vim
 

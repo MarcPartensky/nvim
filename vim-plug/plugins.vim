@@ -139,6 +139,9 @@ Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
 "Grammar correction
 Plug 'rhysd/vim-grammarous'
 
+" Git commands
+Plug 'tpope/vim-fugitive'
+
 "embed vim in a browser
 "Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
