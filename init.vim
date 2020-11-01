@@ -13,6 +13,7 @@ source $HOME/.config/nvim/plugins/vimtex.vim
 source $HOME/.config/nvim/plugins/ultisnips.vim
 source $HOME/.config/nvim/plugins/markdown-preview.vim
 source $HOME/.config/nvim/plugins/r.vim
+source $HOME/.config/nvim/plugins/nerdtree.vim
 " fully file commented for now
 " source $HOME/.config/nvim/plugins/auto-completion.vim
 

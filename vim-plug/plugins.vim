@@ -142,6 +142,12 @@ Plug 'rhysd/vim-grammarous'
 " Git commands
 Plug 'tpope/vim-fugitive'
 
+"Finder for vim
+Plug 'kien/ctrlp.vim'
+
+" Line search highlight
+" Plug 'unblevable/quick-scope'
+
 "embed vim in a browser
 "Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
