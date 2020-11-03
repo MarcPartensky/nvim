@@ -119,7 +119,7 @@ Plug 'mattn/webapi-vim'
 Plug 'psliwka/vim-smoothie'
 
 "follow you with cd
-Plug 'airblade/vim-rooter'
+" Plug 'airblade/vim-rooter'
 
 "latex support for vim
 Plug 'lervag/vimtex'
@@ -144,6 +144,9 @@ Plug 'tpope/vim-fugitive'
 
 "Finder for vim
 Plug 'kien/ctrlp.vim'
+
+"Add syntax highlighting for jsx
+Plug 'maxmellon/vim-jsx-pretty'
 
 " Line search highlight
 " Plug 'unblevable/quick-scope'
