@@ -152,3 +152,13 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+" \'coc-tsserver',
+" \'coc-rust-analyser',
+let g:coc_global_extensions=[
+            \'coc-omnisharp',
+            \'coc-rls',
+            \'coc-react-refactor',
+            \'coc-r-lsp',
+            \'coc-python',
+            \'coc-go',
+            \]

@@ -148,6 +148,9 @@ Plug 'kien/ctrlp.vim'
 "Add syntax highlighting for jsx
 Plug 'maxmellon/vim-jsx-pretty'
 
+" Liveshare for vim
+" Plug 'FredKSchott/CoVim'
+
 " Line search highlight
 " Plug 'unblevable/quick-scope'
 
