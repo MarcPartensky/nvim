@@ -9,6 +9,7 @@
 syntax on
 set number
 set relativenumber
+set scrolloff=10
 
 filetype plugin indent on
 

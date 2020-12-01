@@ -72,7 +72,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'mhinz/vim-startify'
 
 "better search
-Plug 'justinmk/vim-sneak'
+" Plug 'justinmk/vim-sneak'
 
 "interactive scratchpad
 Plug 'metakirby5/codi.vim'
@@ -145,8 +145,11 @@ Plug 'tpope/vim-fugitive'
 "Finder for vim
 Plug 'kien/ctrlp.vim'
 
-"Add syntax highlighting for jsx
+" Add syntax highlighting for jsx
 Plug 'maxmellon/vim-jsx-pretty'
+
+" Autopep8
+Plug 'tell-k/vim-autopep8'
 
 " Liveshare for vim
 " Plug 'FredKSchott/CoVim'

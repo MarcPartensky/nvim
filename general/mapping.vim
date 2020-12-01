@@ -16,6 +16,9 @@ map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 :command -nargs=+ Gc :! git add -A; git commit -m "<args>"
 nmap gc :Gc 
 
+:command -nargs=+ Gn :! git add -A; git commit -m "<args>"
+nmap gn :Gn 
+
 " push
 :command Gp :!git push
 nmap gp :Gp
