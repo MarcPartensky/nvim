@@ -6,10 +6,20 @@
                            "\|    endif
                            "\|endif
 
+" highlighting
 syntax on
+
+" line number
 set number
+
+" line number relative to current line position
 set relativenumber
+
+" margin when scrolling
 set scrolloff=10
+
+" Case insensitive search
+set ignorecase
 
 filetype plugin indent on
 
