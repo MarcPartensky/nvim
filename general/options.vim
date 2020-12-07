@@ -22,6 +22,13 @@ set scrolloff=10
 set ignorecase
 
 filetype plugin indent on
+"
+set tabstop=2
+set shiftwidth=2
+
+" set tab to 2 spaces
+:autocmd Filetype html,twig setlocal tabstop=2
+:autocmd Filetype html,twig setlocal shiftwidth=2
 
 " For kite:
 " let g:kite_auto_complete = 0

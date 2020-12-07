@@ -119,7 +119,7 @@ Plug 'mattn/webapi-vim'
 Plug 'psliwka/vim-smoothie'
 
 "follow you with cd
-" Plug 'airblade/vim-rooter'
+Plug 'airblade/vim-rooter'
 
 "latex support for vim
 Plug 'lervag/vimtex'

@@ -6,8 +6,6 @@ let g:gruvbox_contrast_dark = 'hard'
 set completeopt-=preview
 " let g:kite_auto_complete = 0
 let g:jedi#force_py_version = 3
-set expandtab
-set shiftwidth=4
 let g:airline_theme='one'
 let g:one_allow_italics = 1 " I love italic for comments
 
