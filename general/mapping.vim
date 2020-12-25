@@ -9,6 +9,9 @@ vmap <C-_>   <Plug>Commentary<CR>gv
 "show the date when pressing f2
 map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
+" execute current file
+map <C-i> :!%:p
+map <C-k> :!pylint %
 
 " git shortcut
 
@@ -26,6 +29,7 @@ nmap gp :Gp
 " commit and push
 :command -nargs=+ Gt :! git add -A; git commit -m "<args>"; git push
 nmap gt :Gt 
+
 
 
 
