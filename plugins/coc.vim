@@ -165,3 +165,4 @@ let g:coc_global_extensions=[
             \'coc-python',
             \'coc-go',
             \]
+" \'coc-ccls',

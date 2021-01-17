@@ -10,19 +10,27 @@ let g:airline_theme='one'
 let g:one_allow_italics = 1 " I love italic for comments
 
 set termguicolors
-let ayucolor="mirage" " for mirage version of theme
+" let ayucolor="mirage" " for mirage version of theme
 "let ayucolor="dark"   " for dark version of theme
 "let ayucolor="light"  " for light version of theme
-"colorscheme ayu
+" colorscheme ayu
 "colorscheme codedark
 "colorscheme deep-space
 colorscheme one
 "colorscheme Atom
-
+" colorscheme horizon
+" colorscheme xcodedark
+" colorscheme xcodedarkhc
+" colorscheme xcodelight
+" colorscheme xcodelighthc
+" colorscheme xcodewwdc
+"
+" lightline
 " Themes
 "source $HOME/.config/nvim/themes/syntax.vim
 "source $HOME/.config/nvim/themes/nvcode.vim
 "source $HOME/.config/nvim/themes/airline.vim
+"source $HOME/.config/nvim/themes/lightline.vim
 
 "Credit joshdick
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.

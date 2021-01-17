@@ -16,6 +16,8 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'gregsexton/Atom'
 Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'rakr/vim-one' "inspired from atom
+Plug 'ntk148v/vim-horizon'
+Plug 'arzg/vim-colors-xcode'
 
 "fade inactive buffers
 Plug 'TaDaa/vimade'
@@ -105,6 +107,9 @@ Plug 'skywind3000/vim-preview'
 
 "add icons
 Plug 'ryanoasis/vim-devicons'
+
+"colorize vim devicons using current colorscheme
+Plug 'bryanmylee/vim-colorscheme-icons'
 
 "add image preview in terminal (not working for now)
 "Plug 'ashhisha/image.vim'

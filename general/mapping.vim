@@ -10,7 +10,7 @@ vmap <C-_>   <Plug>Commentary<CR>gv
 map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
 " execute current file
-map <C-i> :!%:p
+map <C-i> :!"%:p"
 map <C-k> :!pylint %
 
 " git shortcut
