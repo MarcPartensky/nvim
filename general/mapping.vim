@@ -11,7 +11,7 @@ map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
 " execute current file
 map <C-i> :!"%:p"
-map <C-k> :!pylint %
+map <C-y> :!pylint %
 
 " git shortcut
 

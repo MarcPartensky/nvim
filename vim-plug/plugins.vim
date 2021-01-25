@@ -156,6 +156,15 @@ Plug 'maxmellon/vim-jsx-pretty'
 " Autopep8
 Plug 'tell-k/vim-autopep8'
 
+" Plantuml (browser preview)
+Plug 'weirongxu/plantuml-previewer.vim'
+Plug 'tyru/open-browser.vim'
+
+" Plantuml (in-code preview)
+Plug 'scrooloose/vim-slumlord'
+Plug 'aklt/plantuml-syntax'
+
+
 " Liveshare for vim
 " Plug 'FredKSchott/CoVim'
 
