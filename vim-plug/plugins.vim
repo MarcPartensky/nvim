@@ -11,7 +11,7 @@ call plug#begin('~/.config/nvim/bundle')
 "themes
 Plug 'tomasiser/vim-code-dark'
 Plug 'morhetz/gruvbox'
-Plug 'christianchiarulli/nvcode.vim'
+Plug 'christianchiarulli/nvcode-color-schemes.vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'gregsexton/Atom'
 Plug 'tyrannicaltoucan/vim-deep-space'
@@ -157,7 +157,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'tell-k/vim-autopep8'
 
 " Liveshare for vim
-" Plug 'FredKSchott/CoVim'
+Plug 'FredKSchott/CoVim'
 
 " Line search highlight
 " Plug 'unblevable/quick-scope'
