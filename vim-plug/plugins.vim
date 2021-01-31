@@ -168,6 +168,10 @@ Plug 'aklt/plantuml-syntax'
 " Liveshare for vim
 Plug 'FredKSchott/CoVim'
 
+" Cool hightlight
+Plug 'tree-sitter/tree-sitter'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
 " Line search highlight
 " Plug 'unblevable/quick-scope'
 
