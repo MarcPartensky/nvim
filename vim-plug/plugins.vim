@@ -165,8 +165,9 @@ Plug 'scrooloose/vim-slumlord'
 Plug 'aklt/plantuml-syntax'
 
 
-" Liveshare for vim
-Plug 'FredKSchott/CoVim'
+" Collaboration for vim
+" Plug 'FredKSchott/oVim'
+Plug 'floobits/floobits-neovim'
 
 " Cool hightlight
 Plug 'tree-sitter/tree-sitter'
