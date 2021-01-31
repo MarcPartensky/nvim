@@ -169,9 +169,9 @@ Plug 'aklt/plantuml-syntax'
 " Plug 'FredKSchott/oVim'
 Plug 'floobits/floobits-neovim'
 
-" Cool hightlight
-Plug 'tree-sitter/tree-sitter'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+" Better synxtax hightlighting available for neovim 0.5
+" Plug 'tree-sitter/tree-sitter'
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
 " Line search highlight
 " Plug 'unblevable/quick-scope'
