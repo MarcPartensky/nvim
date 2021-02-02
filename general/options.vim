@@ -22,9 +22,13 @@ set scrolloff=10
 set ignorecase
 
 filetype plugin indent on
-"
+
+" Use tab not spaces
 set tabstop=2
 set shiftwidth=2
+
+" Use macos system clipboard when yanking
+set clipboard=unnamedplus
 
 " set tab to 2 spaces
 :autocmd Filetype html,twig setlocal tabstop=2
