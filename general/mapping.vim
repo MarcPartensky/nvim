@@ -1,6 +1,7 @@
 "toggle the nerdtree filemanager
 " toggle file manager
-map <C-o> :NERDTreeToggle<CR>
+" map <C-o> :NERDTreeToggle<CR>
+map <C-o> :CocCommand explorer<CR>
 
 " comment
 nmap <C-_> :Commentary<CR>

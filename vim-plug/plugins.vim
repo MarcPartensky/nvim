@@ -25,8 +25,8 @@ Plug 'TaDaa/vimade'
 "floating window inside terminal
 Plug 'voldikss/vim-floaterm'
 
-"file manager
-Plug 'preservim/nerdtree'
+"file manager (using coc-explorer)
+" Plug 'preservim/nerdtree'
 
 "ranger in floating window
 Plug 'kevinhwang91/rnvimr'
