@@ -8,7 +8,7 @@
                 "objc",
                 "objcpp"
             ],
-            "rootPatterns": [
+						"rootPatterns": [
                 ".ccls",
                 "compile_commands.json",
                 ".vim/",
@@ -22,9 +22,23 @@
             }
         }
     },
+
+	 "python.formatting.provider": "black",
+   "python.formatting.blackPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/black",
+   "coc.preferences.formatOnSaveFiletypes": ["python"],
+
+		"omnisharp.version": "lastest",
+    "omnisharp.trace.server": "information",
+    "omnisharp.debug.server": true,
+
 		"explorer.width": 30,
-		"explorer.icon.enableNerdfont": true,
+		"explorer.activeMode": true,
 		"explorer.previewAction.onHover": false,
+		"explorer.file.autoReveal": false,
+		"explorer.file.showHiddenFiles": true,
+		"explorer.icon.enableVimDevicons": true,
+		"explorer.icon.enableNerdfont": true,
+		"explorer.file.child.template": "[git | 2] [selection | clip | 1] [indent][icon | 1] [diagnosticError & 1][filename omitCenter 1][modified][readonly] [linkIcon & 1][link growRight 1 omitCenter 5]",
 		"explorer.keyMappings": {
 			"<C-o>": ["expandable?", "expand", "open"],
 			"v": "open.vsplit"

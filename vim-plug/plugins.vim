@@ -164,10 +164,21 @@ Plug 'tyru/open-browser.vim'
 Plug 'scrooloose/vim-slumlord'
 Plug 'aklt/plantuml-syntax'
 
-
-" Collaboration for vim
+" Collaboration editor agnostic
 " Plug 'FredKSchott/oVim'
 Plug 'floobits/floobits-neovim'
+
+
+" C# omni completion since coc is not mature enough
+Plug 'OmniSharp/Omnisharp-vim'
+
+" Fuzzy finder over lists
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
+" Syntax hightlighting
+" Plug 'sheerun/vim-polyglot'
 
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'

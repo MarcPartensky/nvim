@@ -1,7 +1,6 @@
-Plug 'kevinhwang91/rnvimr'
 
 " Make Ranger replace Netrw and be the file explorer
-let g:rnvimr_enable_ex = 1
+let g:rnvimr_enable_ex = 0
 
 " Make Ranger to be hidden after picking a file
 let g:rnvimr_enable_picker = 1

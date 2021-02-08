@@ -14,6 +14,8 @@ source $HOME/.config/nvim/plugins/ultisnips.vim
 source $HOME/.config/nvim/plugins/markdown-preview.vim
 source $HOME/.config/nvim/plugins/r.vim
 source $HOME/.config/nvim/plugins/nerdtree.vim
+source $HOME/.config/nvim/plugins/telescope.vim
+source $HOME/.config/nvim/plugins/floaterm.vim
 " fully file commented for now
 " source $HOME/.config/nvim/plugins/auto-completion.vim
 
