@@ -166,8 +166,15 @@ Plug 'aklt/plantuml-syntax'
 
 
 " Collaboration for vim
-" Plug 'FredKSchott/oVim'
 Plug 'floobits/floobits-neovim'
+" Deprecated
+" Plug 'FredKSchott/oVim'
+
+" Snippets
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
+"Plug 'zchee/deoplete-jedi'
 
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'
@@ -186,8 +193,6 @@ Plug 'floobits/floobits-neovim'
 " Plug 'https://github.com/Valloric/YouCompleteMe.git'
 " Plug 'Valloric/YouCompleteMe'
 "
-"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-"Plug 'zchee/deoplete-jedi'
 
 "Plug 'davidhalter/jedi-vim'
 "Plug 'Shougo/deoplete-lsp'
