@@ -25,8 +25,8 @@ Plug 'TaDaa/vimade'
 "floating window inside terminal
 Plug 'voldikss/vim-floaterm'
 
-"file manager
-Plug 'preservim/nerdtree'
+"file manager (using coc-explorer)
+" Plug 'preservim/nerdtree'
 
 "ranger in floating window
 Plug 'kevinhwang91/rnvimr'
@@ -166,6 +166,7 @@ Plug 'aklt/plantuml-syntax'
 
 
 " Collaboration for vim
+" Collaboration editor agnostic
 Plug 'floobits/floobits-neovim'
 " Deprecated
 " Plug 'FredKSchott/oVim'
@@ -175,6 +176,18 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 "Plug 'zchee/deoplete-jedi'
+
+
+" C# omni completion since coc is not mature enough
+Plug 'OmniSharp/Omnisharp-vim'
+
+" Fuzzy finder over lists
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
+" Syntax hightlighting
+" Plug 'sheerun/vim-polyglot'
 
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'

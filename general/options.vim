@@ -44,3 +44,9 @@ hi! NonText ctermbg=NONE guibg=NONE
 
 "for viewing images
 let g:netrw_browsex_viewer="xdg-open"
+
+" augroup ProjectDrawer
+"   autocmd!
+"   autocmd VimEnter * :Telescope find_files
+" augroup END
+" autocmd VimEnter * :Vexplore

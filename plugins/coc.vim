@@ -164,5 +164,6 @@ let g:coc_global_extensions=[
             \'coc-r-lsp',
             \'coc-python',
             \'coc-go',
+            \'coc-explorer',
             \]
 " \'coc-ccls',
