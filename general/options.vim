@@ -43,7 +43,7 @@ hi! Normal ctermbg=NONE guibg=NONE
 hi! NonText ctermbg=NONE guibg=NONE
 
 "for viewing images
-let g:netrw_browsex_viewer="xdg-open"
+" let g:netrw_browsex_viewer="xdg-open"
 
 " augroup ProjectDrawer
 "   autocmd!

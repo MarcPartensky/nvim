@@ -1,18 +1,18 @@
 
 " Make Ranger replace Netrw and be the file explorer
-let g:rnvimr_enable_ex = 0
+let g:rnvimr_enable_ex = 1
 
 " Make Ranger to be hidden after picking a file
 let g:rnvimr_enable_picker = 1
 
 " Disable a border for floating window
-let g:rnvimr_draw_border = 0
+let g:rnvimr_draw_border = 1
 
 " Hide the files included in gitignore
-let g:rnvimr_hide_gitignore = 1
+" let g:rnvimr_hide_gitignore = 1
 
 " Change the border's color
-let g:rnvimr_border_attr = {'fg': 14, 'bg': -1}
+" let g:rnvimr_border_attr = {'fg': 14, 'bg': -1}
 
 " Make Neovim wipe the buffers corresponding to the files deleted by Ranger
 let g:rnvimr_enable_bw = 1
@@ -47,8 +47,8 @@ let g:rnvimr_action = {
 " Add views for Ranger to adapt the size of floating window
 let g:rnvimr_ranger_views = [
             \ {'minwidth': 90, 'ratio': []},
-            \ {'minwidth': 50, 'maxwidth': 89, 'ratio': [1,1]},
-            \ {'maxwidth': 49, 'ratio': [1]}
+            \ {'minwidth': 90, 'maxwidth': 90, 'ratio': [1,1]},
+            \ {'maxwidth': 90, 'ratio': [1]}
             \ ]
 
 " Customize the initial layout
