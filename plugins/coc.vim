@@ -167,5 +167,6 @@ let g:coc_global_extensions=[
             \'coc-explorer',
 						\'coc-yaml',
 						\'coc-json',
+						\'coc-tabnine',
             \]
 " \'coc-ccls',
