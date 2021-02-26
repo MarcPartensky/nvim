@@ -6,7 +6,8 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 " plugin configs
 " couldn't get this one to work
 " source $HOME/.config/nvim/plugins/vim-which-key.vim
-source $HOME/.config/nvim/plugins/rnvimr.vim
+source $HOME/.config/nvim/plugins/ranger.vim
+" source $HOME/.config/nvim/plugins/rnvimr.vim
 source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/vim-hexokinase.vim
 source $HOME/.config/nvim/plugins/vimtex.vim

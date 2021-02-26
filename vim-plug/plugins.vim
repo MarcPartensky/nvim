@@ -29,7 +29,9 @@ Plug 'voldikss/vim-floaterm'
 " Plug 'preservim/nerdtree'
 
 "ranger in floating window
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+" Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+Plug 'rbgrouleff/bclose.vim'
+Plug 'francoiscabrol/ranger.vim'
 
 "surround ( [ { ' double quotes
 Plug 'tpope/vim-surround'
