@@ -5,6 +5,17 @@
                            "\|        confirm write
                            "\|    endif
                            "\|endif
+													 "
+set wrap
+set linebreak
+set breakindent
+set showbreak=ͱ
+
+set noshowmode
+set noruler
+set laststatus=0
+set noshowcmd
+set cmdheight=1
 
 " highlighting
 syntax on
@@ -41,6 +52,20 @@ set completeopt+=menuone
 
 hi! Normal ctermbg=NONE guibg=NONE
 hi! NonText ctermbg=NONE guibg=NONE
+
+tnoremap <C-l> <C-\><C-n>:call ClearTerminal()<cr>
+
+function! ClearTerminal()
+  set scrollback=1
+  let &g:scrollback=1
+  echo &scrollback
+  call feedkeys("\i")
+  call feedkeys("clear\<CR>")
+  call feedkeys("\<C-\>\<C-n>")
+  call feedkeys("\i")
+  sleep 100m
+  let &scrollback=s:scroll_value
+endfunction
 
 "for viewing images
 " let g:netrw_browsex_viewer="xdg-open"

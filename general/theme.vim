@@ -9,22 +9,25 @@ let g:jedi#force_py_version = 3
 let g:airline_theme='one'
 let g:one_allow_italics = 1 " I love italic for comments
 
-set termguicolors
+" set termguicolors
+" colorscheme material
 " let ayucolor="mirage" " for mirage version of theme
 "let ayucolor="dark"   " for dark version of theme
 "let ayucolor="light"  " for light version of theme
 " colorscheme ayu
-"colorscheme codedark
-"colorscheme deep-space
-colorscheme one
-"colorscheme Atom
+" colorscheme codedark
+" colorscheme deep-space
+" colorscheme one
+" colorscheme Atom
 " colorscheme horizon
 " colorscheme xcodedark
 " colorscheme xcodedarkhc
 " colorscheme xcodelight
 " colorscheme xcodelighthc
 " colorscheme xcodewwdc
-"
+colorscheme bat
+
+
 " lightline
 " Themes
 "source $HOME/.config/nvim/themes/syntax.vim

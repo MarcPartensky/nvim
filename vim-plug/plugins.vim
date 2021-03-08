@@ -18,6 +18,8 @@ Plug 'tyrannicaltoucan/vim-deep-space'
 Plug 'rakr/vim-one' "inspired from atom
 Plug 'ntk148v/vim-horizon'
 Plug 'arzg/vim-colors-xcode'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'jamespwilliams/bat.vim'
 
 "fade inactive buffers
 Plug 'TaDaa/vimade'
@@ -189,6 +191,10 @@ Plug 'nvim-telescope/telescope.nvim'
 
 " Syntax hightlighting
 " Plug 'sheerun/vim-polyglot'
+"
+" Syntax highlighting for twig
+Plug 'nelsyeung/twig.vim'
+
 
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'

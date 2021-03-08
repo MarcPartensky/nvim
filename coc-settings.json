@@ -26,7 +26,7 @@
     "python.pythonPath": "python",
     "python.venvPath": "~/venv/",
 
-    "python.jediPath": "~/venv/jedi/lib/python3.8/site-packages/",
+    "test.python.jediPath": "~/venv/jedi/lib/python3.9/site-packages/",
     "python.jediEnabled": true,
     "suggest.timeout": 5000,
 
@@ -35,7 +35,7 @@
     "python.linting.pylintPath": "pylint",
 
 	 "python.formatting.provider": "black",
-   "python.formatting.blackPath": "~/.pyenv/versions/3.9.1/lib/python3.9/site-packages/black",
+   "test.python.formatting.blackPath": "~/venv/black/lib/python3.9/site-packages/black",
    "coc.preferences.formatOnSaveFiletypes": ["python"],
 
 		"omnisharp.version": "lastest",
