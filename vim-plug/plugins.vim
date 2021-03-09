@@ -194,6 +194,9 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
+" Syntax highlighting for nginx
+Plug 'chr4/nginx.vim'
+
 " Syntax hightlighting
 " Plug 'sheerun/vim-polyglot'
 "
