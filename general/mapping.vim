@@ -2,7 +2,7 @@
 " toggle file manager
 " map <C-o> :NERDTreeToggle<CR>
 map <C-o> :CocCommand explorer<CR>
-
+map <C-w> :q<CR>
 " augroup MyCocExplorer
 "   autocmd!
 "   autocmd VimEnter * sil! au! FileExplorer *
