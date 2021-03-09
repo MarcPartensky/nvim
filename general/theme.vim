@@ -28,6 +28,8 @@ colorscheme one
 " colorscheme xcodewwdc
 " colorscheme bat
 " colorscheme onehalflight
+" colorscheme yin
+" colorscheme yang
 
 " let g:airline_theme='onehalfdark'
 " let g:lightline.colorscheme='onehalfdark'
