@@ -30,6 +30,7 @@ colorscheme one
 " colorscheme onehalflight
 " colorscheme yin
 " colorscheme yang
+" colorscheme wal
 
 " let g:airline_theme='onehalfdark'
 " let g:lightline.colorscheme='onehalfdark'

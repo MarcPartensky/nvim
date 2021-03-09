@@ -22,6 +22,7 @@ Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'jamespwilliams/bat.vim'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'pgdouyon/vim-yin-yang'
+Plug 'dylanaraps/wal.vim'
 
 "fade inactive buffers
 Plug 'TaDaa/vimade'
