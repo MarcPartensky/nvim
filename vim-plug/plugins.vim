@@ -20,6 +20,7 @@ Plug 'ntk148v/vim-horizon'
 Plug 'arzg/vim-colors-xcode'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'jamespwilliams/bat.vim'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 "fade inactive buffers
 Plug 'TaDaa/vimade'
