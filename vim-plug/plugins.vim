@@ -172,11 +172,9 @@ Plug 'tyru/open-browser.vim'
 Plug 'scrooloose/vim-slumlord'
 Plug 'aklt/plantuml-syntax'
 
-
-" Collaboration for vim
 " Collaboration editor agnostic
 Plug 'floobits/floobits-neovim'
-" Deprecated
+" Collaboration for vim (deprecated)
 " Plug 'FredKSchott/oVim'
 
 " Snippets
@@ -203,6 +201,13 @@ Plug 'chr4/nginx.vim'
 " Syntax highlighting for twig
 Plug 'nelsyeung/twig.vim'
 
+" Code completion
+Plug 'neovim/nvim-lspconfig'
+Plug 'glepnir/lspsaga.nvim'
+
+" Vim session
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-session'
 
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'

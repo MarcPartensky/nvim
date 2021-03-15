@@ -20,15 +20,18 @@ map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 map <C-i> :!"%:p"
 map <C-y> :!pylint %
 
-" git shortcut
+" vim-session
+nnoremap <leader>so :OpenSession
+nnoremap <leader>ss :SaveSession
+nnoremap <leader>sd :DeleteSession
+nnoremap <leader>sc :CloseSession
 
+" git shortcut
 " commit
 :command -nargs=+ Gc :! git add -A; git commit -m "<args>"
 nmap gc :Gc 
-
 :command -nargs=+ Gn :! git add -A; git commit -m "<args>"
 nmap gn :Gn 
-
 " push
 :command Gp :!git push
 nmap gp :Gp

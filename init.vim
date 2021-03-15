@@ -18,6 +18,8 @@ source $HOME/.config/nvim/plugins/nerdtree.vim
 source $HOME/.config/nvim/plugins/telescope.vim
 source $HOME/.config/nvim/plugins/floaterm.vim
 source $HOME/.config/nvim/plugins/startify.vim
+source $HOME/.config/nvim/plugins/lspsaga.vim
+source $HOME/.config/nvim/plugins/vim-session.vim
 " fully file commented for now
 " source $HOME/.config/nvim/plugins/auto-completion.vim
 

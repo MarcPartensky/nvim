@@ -50,6 +50,8 @@ set clipboard=unnamedplus
 set completeopt+=noinsert
 set completeopt+=menuone
 
+set encoding=UTF-8
+
 tnoremap <C-l> <C-\><C-n>:call ClearTerminal()<cr>
 
 function! ClearTerminal()
