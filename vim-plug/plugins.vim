@@ -196,9 +196,12 @@ Plug 'nvim-telescope/telescope.nvim'
 " Syntax highlighting for nginx
 Plug 'chr4/nginx.vim'
 
+" Syntax highlighting for caddy
+Plug 'joshglendenning/vim-caddyfile'
+
 " Syntax hightlighting
 " Plug 'sheerun/vim-polyglot'
-"
+
 " Syntax highlighting for twig
 Plug 'nelsyeung/twig.vim'
 
