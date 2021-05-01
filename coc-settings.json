@@ -23,7 +23,7 @@
         }
     },
 
-    "python.pythonPath": "python",
+    "python.pythonPath": "~/.pyenv/shims/python",
     "python.venvPath": "~/venv/",
 
     "test.python.jediPath": "~/venv/jedi/lib/python3.9/site-packages/",
@@ -51,7 +51,7 @@
 		"explorer.icon.enableNerdfont": true,
 		"explorer.file.child.template": "[git | 2] [selection | clip | 1] [indent][icon | 1] [diagnosticError & 1][filename omitCenter 1][modified][readonly] [linkIcon & 1][link growRight 1 omitCenter 5]",
 		"explorer.keyMappings": {
-			"<C-o>": ["expandable?", "expand", "open"],
+			"<C-l>": ["expandable?", "expand", "open"],
 			"v": "open.vsplit"
 		}
 }

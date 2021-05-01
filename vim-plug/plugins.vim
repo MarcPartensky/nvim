@@ -174,7 +174,7 @@ Plug 'scrooloose/vim-slumlord'
 Plug 'aklt/plantuml-syntax'
 
 " Collaboration editor agnostic
-Plug 'floobits/floobits-neovim'
+" Plug 'floobits/floobits-neovim'
 " Collaboration for vim (deprecated)
 " Plug 'FredKSchott/oVim'
 
