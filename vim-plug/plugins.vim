@@ -24,6 +24,7 @@ Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'pgdouyon/vim-yin-yang'
 Plug 'dylanaraps/wal.vim'
 Plug 'rainglow/vim'
+Plug 'pineapplegiant/spaceduck'
 
 "fade inactive buffers
 Plug 'TaDaa/vimade'
