@@ -18,8 +18,8 @@ let g:one_allow_italics = 1 " I love italic for comments
 " colorscheme ayu
 " colorscheme codedark
 " colorscheme deep-space
-" colorscheme one
-colorscheme Atom
+colorscheme one
+" colorscheme Atom
 " colorscheme horizon
 " colorscheme xcodedark
 " colorscheme xcodedarkhc
