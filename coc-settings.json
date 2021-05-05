@@ -23,10 +23,10 @@
         }
     },
 
-    "python.pythonPath": "~/.pyenv/shims/python",
     "python.venvPath": "~/venv/",
 
-    "test.python.jediPath": "~/venv/jedi/lib/python3.9/site-packages/",
+		"python.pythonPath": "python",
+		"python.venvFolders":  ["/root/.pyenv/versions/3.9.2/envs"],
     "python.jediEnabled": true,
     "suggest.timeout": 5000,
 
@@ -35,7 +35,6 @@
     "python.linting.pylintPath": "pylint",
 
 	 "python.formatting.provider": "black",
-   "test.python.formatting.blackPath": "~/venv/black/lib/python3.9/site-packages/black",
    "coc.preferences.formatOnSaveFiletypes": ["python"],
 
 		"omnisharp.version": "lastest",
