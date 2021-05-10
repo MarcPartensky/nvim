@@ -18,6 +18,7 @@ USER root
 ENV PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
 
 RUN brew install --head neovim
+RUN brew cleanup
 
 # RUN apt-get update
 # RUN apt-get install -y nodejs npm golang
@@ -34,8 +35,8 @@ RUN brew install --head neovim
 
 RUN pip3 install neovim
 
-COPY . /nvim
-WORKDIR /nvim
+COPY . .config/nvim
+WORKDIR .config/nvim
 
 RUN nvim --headless \
 	+"source vim-plug/plugins.vim" \

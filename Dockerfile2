@@ -3,6 +3,7 @@ FROM linuxbrew/linuxbrew
 LABEL maintainer="Marc Partensky <marc.partensky@gmail.com"
 
 RUN brew install --head neovim
+RUN brew cleanup
 
 RUN pip3 install neovim
 
@@ -12,5 +13,5 @@ WORKDIR .config/nvim
 RUN nvim --headless \
 	+"source vim-plug/plugins.vim" \
 	+PlugInstall \
-	+UpdateRemotePlugins \
+	q+UpdateRemotePlugins \
 	+qall
