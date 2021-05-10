@@ -214,6 +214,8 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 
+Plug 'kkvh/vim-docker-tools'
+
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
