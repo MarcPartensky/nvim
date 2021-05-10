@@ -1,5 +1,7 @@
 FROM ubuntu
 
+LABEL maintainer="Marc Partensky <marc.partensky@gmail.com"
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
@@ -14,11 +16,12 @@ RUN useradd -m -s /bin/bash linuxbrew && \
 USER linuxbrew
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
-USER root
 ENV PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
 
 RUN brew install --head neovim
 RUN brew cleanup
+
+USER root
 
 # RUN apt-get update
 # RUN apt-get install -y nodejs npm golang

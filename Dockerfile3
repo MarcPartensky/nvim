@@ -1,0 +1,33 @@
+FROM ubuntu
+
+LABEL maintainer="Marc Partensky <marc.partensky@gmail.com"
+
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && \
+    apt-get install build-essential curl file git ruby-full locales --no-install-recommends -y && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN apt-get install fuse libfuse2 git python3-pip ack-grep -y
+
+RUN localedef -i en_US -f UTF-8 en_US.UTF-8
+
+COPY . .config/nvim
+WORKDIR .config/nvim
+
+
+RUN wget --quiet https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --output-document nvim
+
+# RUN wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --extract-document nvim
+# RUN curl -O https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+
+# RUN chmod +x nvim.appimage
+# RUN ./nvim.appimage --appimage-extract-and-run
+# RUN ./squashfs-root/usr/bin/nvim
+
+RUN pip3 install neovim
+
+RUN nvim --headless \
+	+"source vim-plug/plugins.vim" \
+	+PlugInstall \
+	+UpdateRemotePlugins \
+	+qall
