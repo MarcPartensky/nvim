@@ -20,6 +20,7 @@ source $HOME/.config/nvim/plugins/floaterm.vim
 source $HOME/.config/nvim/plugins/startify.vim
 source $HOME/.config/nvim/plugins/lspsaga.vim
 source $HOME/.config/nvim/plugins/vim-session.vim
+source $HOME/.config/nvim/plugins/instant.vim
 " fully file commented for now
 " source $HOME/.config/nvim/plugins/auto-completion.vim
 

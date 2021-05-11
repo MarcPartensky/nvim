@@ -214,7 +214,11 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 
+" Docker
 Plug 'kkvh/vim-docker-tools'
+
+" Multi user editing
+Plug 'jbyuki/instant.nvim'
 
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'
