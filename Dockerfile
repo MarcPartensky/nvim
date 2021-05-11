@@ -3,7 +3,8 @@ FROM ubuntu
 LABEL maintainer="Marc Partensky <marc.partensky@gmail.com"
 ENV DEBIAN_FRONTEND=noninteractive
 
-COPY . /root/.config/nvim
+COPY nvim /root/.config/nvim
+COPY coc /root/.config/coc
 
 RUN apt-get update
 RUN apt-get install -y git locales curl wget nodejs npm golang make python3-dev --no-install-recommends

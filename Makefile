@@ -1,5 +1,5 @@
 build:
-	docker build . -t marcpartensky/nvim
+	docker build .. -f Dockerfile -t marcpartensky/nvim
 push:
 	docker push marcpartensky/nvim
 run:
