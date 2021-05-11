@@ -1,27 +1,54 @@
 # My neovim config
 
-This is my neovim config that i use on my mac.
+This is my personal neovim config, feel free to give it a try with docker and fork it to your needs.
 
-## Installation (on Unix like systems)
-### Install neovim
-Official neovim website: <a>https://neovim.io/</a>
+## Run with docker
+```
+docker run -it --name nvim marcpartensky/nvim
+```
+
+## Installation manually (on Unix like systems)
+
+### Install neovim nightly
+(Install the latest release)[https://github.com/neovim/neovim/releases]
+
+> You can also check the official website: (Official neovim website)[https://neovim.io]
 
 ### Clone the project
-```bash
-cd ~/.config
-git clone https://github.com/MarcPartensky/nvim.git
-cd nvim
+```sh
+git clone https://github.com/MarcPartensky/nvim.git ~/.config/nvim
 ```
 
 ### Install the plugins
-```bash
-nvim vim-plug/plugins.vim 
+```sh
+nvim ~/.config/nvim/vim-plug/plugins.vim 
 ```
+
 Then type the following:
 * **:source %**
 * **:PlugInstall**
 
 **That's it!**
+
+### Build with docker yourself
+If you do not trust docker hub images you can build the image you can check the dockerfile and build the image yourself.
+```
+docker build ~/.config -t marcpartensky/nvim
+```
+or 
+```
+cd ~/.config/nvim
+make build
+```
+
+#### Finally you can run the image with:
+```
+docker run -it --name nvim marcpartensky/nvim
+```
+or even
+```
+make run
+```
 
 ## Project file tree
 
@@ -53,5 +80,5 @@ Then type the following:
 This is how the folder should look like at the end.
 
 ## Congratulations!
-If you are done, congratulations! otherwise add an issue and I will check it out!
-
+If you are done, congratulations! otherwise add an issue if you find one and I will check it out!
+Pull requests are also welcome!
