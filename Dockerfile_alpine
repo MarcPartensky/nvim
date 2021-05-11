@@ -1,4 +1,4 @@
-FROM busybox
+FROM alpine
 
 LABEL maintainer="Marc Partensky <marc.partensky@gmail.com"
 ENV DEBIAN_FRONTEND=noninteractive
@@ -6,8 +6,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 COPY nvim /root/.config/nvim
 COPY coc /root/.config/coc
 
-RUN apt-get update
-RUN apt-get install -y git locales curl wget nodejs npm golang make python3-pip python3-dev --no-install-recommends
+RUN apk update
+RUN apk add --no-cache git locales curl wget nodejs npm go make python3-dev py3-pip
 RUN localedef -i en_US -f UTF-8 en_US.UTF-8
 RUN npm i -g yarn
 RUN pip3 install --user neovim

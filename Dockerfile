@@ -7,20 +7,13 @@ COPY nvim /root/.config/nvim
 COPY coc /root/.config/coc
 
 RUN apt-get update
-RUN apt-get install -y git locales curl wget nodejs npm golang make python3-pip python3-dev --no-install-recommends
+RUN apt-get install -y software-properties-common
+RUN add-apt-repository ppa:neovim-ppa/unstable
+RUN apt-get install -y git locales curl wget nodejs npm golang make python3-pip python3-dev neovim --no-install-recommends
 RUN localedef -i en_US -f UTF-8 en_US.UTF-8
 RUN npm i -g yarn
-RUN pip3 install --user neovim
-# RUN rm -rf /var/lib/apt/lists/*
-
-WORKDIR /tmp
-RUN wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
-RUN tar xzvf nvim-linux64.tar.gz
-RUN mv nvim-linux64/bin/nvim /usr/local/bin/nvim
-RUN mv nvim-linux64/share/* /usr/local/share
-RUN mv nvim-linux64/lib/* /usr/local/lib
-RUN chmod +x /usr/local/bin/nvim
-RUN rm -d nvim-linux64/* nvim-linux64
+# RUN pip3 install --user neovim
+RUN rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root
 RUN touch .vimrc
