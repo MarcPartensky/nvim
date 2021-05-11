@@ -12,7 +12,7 @@ RUN add-apt-repository ppa:neovim-ppa/unstable
 RUN apt-get install -y git locales curl wget nodejs npm golang make python3-pip python3-dev neovim --no-install-recommends
 RUN localedef -i en_US -f UTF-8 en_US.UTF-8
 RUN npm i -g yarn
-# RUN pip3 install --user neovim
+RUN pip3 install --user neovim
 RUN rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root
