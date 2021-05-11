@@ -7,4 +7,6 @@ build3:
 push:
 	docker push marcpartensky/nvim
 run:
-	docker run -it marcpartensky/nvim --name nvim
+	docker run --name nvim -it marcpartensky/nvim
+rm:
+	docker kill nvim || docker rm nvim
