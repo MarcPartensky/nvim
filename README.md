@@ -10,9 +10,9 @@ docker run -it --name nvim marcpartensky/nvim
 ## Installation manually (on Unix like systems)
 
 ### Install neovim nightly
-(Install the latest release)[https://github.com/neovim/neovim/releases]
+[Install the latest release](https://github.com/neovim/neovim/releases)
 
-> You can also check the official website: (Official neovim website)[https://neovim.io]
+> You can also check the official website [Official neovim website](https://neovim.io)
 
 ### Clone the project
 ```sh
