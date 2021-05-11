@@ -1,1 +1,1 @@
-let g:instant_username = "marcpartensky"
+let g:instant_username = "root"

@@ -24,6 +24,8 @@ git clone https://github.com/MarcPartensky/nvim.git ~/.config/nvim
 nvim ~/.config/nvim/vim-plug/plugins.vim 
 ```
 
+test
+
 Then type the following:
 * **:source %**
 * **:PlugInstall**

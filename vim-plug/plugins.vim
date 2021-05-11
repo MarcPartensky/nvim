@@ -176,15 +176,15 @@ Plug 'aklt/plantuml-syntax'
 
 " Collaboration editor agnostic
 " Plug 'floobits/floobits-neovim'
-" Collaboration for vim (deprecated)
-" Plug 'FredKSchott/oVim'
+" Plug 'FredKSchott/CoVim'
+Plug 'jbyuki/instant.nvim'
+Plug 'emgram769/vim-multiuser'
 
 " Snippets
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 "Plug 'zchee/deoplete-jedi'
-
 
 " C# omni completion since coc is not mature enough
 Plug 'OmniSharp/Omnisharp-vim'
@@ -217,8 +217,6 @@ Plug 'xolox/vim-session'
 " Docker
 Plug 'kkvh/vim-docker-tools'
 
-" Multi user editing
-Plug 'jbyuki/instant.nvim'
 
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'tree-sitter/tree-sitter'
