@@ -1,17 +1,64 @@
-"toggle the nerdtree filemanager
+" Insert mode paste
+inoremap <C-Insert> <C-r>*
+" Command mode paste
+cnoremap <C-Insert> <C-r>*
+" Normal mode paste
+nnoremap <C-Insert> P
+" Visual mode paste (without yanking replaced text)
+vnoremap <C-Insert> "_dP
+" Remap Copy Key Mappings
+" ----------
+" Remap copy to work in neovim
+vmap <M-[>2;5+ y
+" Select all
+noremap <C-S-Insert> <Esc>ggVG
+
+" if has('nvim')
+"     " map <A-n> :bnext<CR>
+"     function! s:alt_key(key)
+"         return "<A-". a:key . ">"
+"     endfun
+" else
+"     " map <Esc>n :bnext<CR>
+"     function! s:alt_key(key)
+"         return "<Esc>". a:key
+"     endfun
+" endif
+
+" function! s:map_alt(key, action)
+"     exec "map " . s:alt_key(a:key). " " a:action
+" endfun
+
+" function! s:imap_alt(key, action)
+"     exec "imap " . s:alt_key(a:key). " " a:action
+" endfun
+
+" map <C-w> :q<CR>
+map <C-q> :q<CR>
+
 " toggle file manager
 " map <C-o> :NERDTreeToggle<CR>
 map <C-o> :CocCommand explorer<CR>
-map <C-w> :q<CR>
-" augroup MyCocExplorer
-"   autocmd!
-"   autocmd VimEnter * sil! au! FileExplorer *
-"   autocmd BufEnter * let d = expand('%') | if isdirectory(d) | silent! bd | exe 'CocCommand explorer ' . d | endif
-" augroup END
+augroup MyCocExplorer
+  autocmd!
+  autocmd VimEnter * sil! au! FileExplorer *
+  autocmd BufEnter * let d = expand('%') | if isdirectory(d) | silent! bd | exe 'CocCommand explorer ' . d | endif
+augroup END
 
 " comment
 nmap <C-_> :Commentary<CR>
 vmap <C-_>   <Plug>Commentary<CR>gv
+nmap <M-'> :Commentary<CR>
+vmap <M-'> :Commentary<CR>gv
+imap <M-'> <Esc>gV:Commentary<CR>i
+
+" indentation
+vmap <M-]> >gv|
+vmap <M-[> <gv
+nmap <M-]> <Esc>v><Esc>
+nmap <M-[> <Esc>v<<Esc>
+imap <M-]> <C-t>
+imap <M-[> <C-d>
 
 "show the date when pressing f2
 map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
@@ -21,7 +68,7 @@ map <C-i> :!"%:p"
 map <C-y> :!pylint %
 
 " vim-session
-nnoremap <leader>so :OpenSession
+" nnoremap <leader>so :OpenSession
 nnoremap <leader>ss :SaveSession
 nnoremap <leader>sd :DeleteSession
 nnoremap <leader>sc :CloseSession

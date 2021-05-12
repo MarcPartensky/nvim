@@ -158,7 +158,7 @@ Plug 'rhysd/vim-grammarous'
 Plug 'tpope/vim-fugitive'
 
 "Finder for vim
-Plug 'kien/ctrlp.vim'
+" Plug 'kien/ctrlp.vim'
 
 " Add syntax highlighting for jsx
 Plug 'maxmellon/vim-jsx-pretty'
@@ -175,10 +175,11 @@ Plug 'scrooloose/vim-slumlord'
 Plug 'aklt/plantuml-syntax'
 
 " Collaboration editor agnostic
-" Plug 'floobits/floobits-neovim'
-" Plug 'FredKSchott/CoVim'
+" Plug 'floobits/floobits-neovim' "closed source
+" Plug 'FredKSchott/CoVim' "python2.7
 Plug 'jbyuki/instant.nvim'
-Plug 'emgram769/vim-multiuser'
+" Plug 'emgram769/vim-multiuser' "python2.7
+Plug 'WillB97/vim-multiuser'
 
 " Snippets
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

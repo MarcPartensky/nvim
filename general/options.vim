@@ -66,6 +66,25 @@ function! ClearTerminal()
   let &scrollback=s:scroll_value
 endfunction
 
+if has('mac') && has('vim_starting')
+  let g:clipboard = {
+  \   'name': 'macOS-clipboard',
+  \   'copy': {
+  \      '+': 'pbcopy',
+  \      '*': 'pbcopy',
+  \    },
+  \   'paste': {
+  \      '+': 'pbpaste',
+  \      '*': 'pbpaste',
+  \   },
+  \   'cache_enabled': 0,
+  \ }
+endif
+
+if has('clipboard') && has('vim_starting')
+  set clipboard& clipboard^=unnamed,unnamedplus
+endif
+
 "for viewing images
 " let g:netrw_browsex_viewer="xdg-open"
 
