@@ -159,6 +159,12 @@ Plug 'tpope/vim-fugitive'
 
 "Finder for vim
 " Plug 'kien/ctrlp.vim'
+Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
+
+" Fuzzy finder over lists
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Add syntax highlighting for jsx
 Plug 'maxmellon/vim-jsx-pretty'
@@ -189,11 +195,6 @@ Plug 'Shougo/neosnippet-snippets'
 
 " C# omni completion since coc is not mature enough
 Plug 'OmniSharp/Omnisharp-vim'
-
-" Fuzzy finder over lists
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
 
 " Syntax highlighting for nginx
 Plug 'chr4/nginx.vim'
