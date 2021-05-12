@@ -10,7 +10,7 @@ vnoremap <silent><leader>ca <cmd>'<,'>lua require('lspsaga.codeaction').range_co
 nnoremap <silent><leader>ca :Lspsaga code_action<CR>
 vnoremap <silent><leader>ca :<C-U>Lspsaga range_code_action<CR>
 
-local saga = require 'lspsaga'
+" local saga = require 'lspsaga'
 
 " -- add your config value here
 " -- default value
@@ -49,9 +49,9 @@ local saga = require 'lspsaga'
 " -- like server_filetype_map = {metals = {'sbt', 'scala'}}
 " -- server_filetype_map = {}
 
-init_options = {
-	codeAction = true
-}
+" init_options = {
+" 	codeAction = true
+" }
 
 " saga.init_lsp_saga {
 	" codeAction = true
