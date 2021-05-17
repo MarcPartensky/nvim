@@ -25,7 +25,6 @@
 
     "python.venvPath": "~/venv/",
 
-		"python.pythonPath": "python",
 		"python.venvFolders":  ["/root/.pyenv/versions/3.9.2/envs"],
     "python.jediEnabled": true,
     "suggest.timeout": 5000,

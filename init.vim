@@ -22,6 +22,7 @@ source $HOME/.config/nvim/plugins/vim-session.vim
 source $HOME/.config/nvim/plugins/instant.vim
 source $HOME/.config/nvim/plugins/ctrlp.vim
 source $HOME/.config/nvim/plugins/telescope.vim
+luafile $HOME/.config/nvim/plugins/nvim-treesitter.lua
 " fully file commented for now
 " source $HOME/.config/nvim/plugins/auto-completion.vim
 
