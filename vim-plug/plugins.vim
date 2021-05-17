@@ -219,10 +219,8 @@ Plug 'xolox/vim-session'
 " Docker
 Plug 'kkvh/vim-docker-tools'
 
-
 " Better synxtax hightlighting available for neovim 0.5
-" Plug 'tree-sitter/tree-sitter'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Line search highlight
 " Plug 'unblevable/quick-scope'
