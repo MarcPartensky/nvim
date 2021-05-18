@@ -222,6 +222,10 @@ Plug 'kkvh/vim-docker-tools'
 " Better synxtax hightlighting available for neovim 0.5
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+" Vim tips
+" Plug 'openuado/vimtips-fortune'
+" Plug 'hobbestigrou/vimtips-fortune'
+
 " Line search highlight
 " Plug 'unblevable/quick-scope'
 
