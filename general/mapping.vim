@@ -65,6 +65,7 @@ map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
 " execute current file
 map <C-i> :!"%:p"
+map <C-m> :make run
 map <C-y> :!pylint %
 
 " vim-session
@@ -88,7 +89,8 @@ nmap gp :Gp
 nmap gt :Gt 
 
 "echo current activity
-"map <F3> :python /Users/marcpartensky/programs/python/repository-2020/isep-hyperplanning.py<CR>
+map <F3> :!curl --silent ipconfig.io<CR>
+" map <F3> :python /Users/marcpartensky/programs/python/repository-2020/isep-hyperplanning.py<CR>
 
 
 "show the date when saving the buffer
