@@ -64,9 +64,9 @@ imap <M-[> <C-d>
 map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
 " execute current file
-map <C-i> :!"%:p"
-map <C-m> :make run
-map <C-y> :!pylint %
+map <C-i> :!"%:p"<CR>
+map <C-m> :make run<CR>
+map <C-y> :!pylint %<CR>
 
 " vim-session
 " nnoremap <leader>so :OpenSession
