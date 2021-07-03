@@ -27,7 +27,7 @@
 	"python.venvFolders": [
 		"/root/.pyenv/versions/3.9.2/envs"
 	],
-	"python.jediEnabled": true,
+	// "python.jediEnabled": true,
 	"suggest.timeout": 5000,
 	"python.linting.pylintEnabled": true,
 	"python.linting.flake8Enabled": false,

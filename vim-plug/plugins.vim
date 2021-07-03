@@ -25,6 +25,8 @@ Plug 'pgdouyon/vim-yin-yang'
 Plug 'dylanaraps/wal.vim'
 Plug 'rainglow/vim'
 Plug 'pineapplegiant/spaceduck'
+Plug 'dylanaraps/wal.vim'
+" Using plug
 
 "fade inactive buffers
 Plug 'TaDaa/vimade'

@@ -9,7 +9,6 @@ let g:jedi#force_py_version = 3
 let g:airline_theme='one'
 let g:one_allow_italics = 1 " I love italic for comments
 
-
 " set termguicolors
 " colorscheme material
 " let ayucolor="mirage" " for mirage version of theme
@@ -32,7 +31,7 @@ colorscheme one
 " colorscheme yang
 " colorscheme wal
 " colorscheme spaceduck
-
+" colorscheme wal
 " let g:airline_theme='onehalfdark'
 " let g:lightline.colorscheme='onehalfdark'
 
