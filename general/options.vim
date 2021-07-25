@@ -85,6 +85,10 @@ if has('clipboard') && has('vim_starting')
   set clipboard& clipboard^=unnamed,unnamedplus
 endif
 
+let g:coc_node_path = "/usr/local/bin/node"
+let g:coc_npm_path = "/usr/local/bin/npm"
+let g:coc_yarn_path = "/Users/marcpartensky/.yarn/bin/yarn"
+
 "for viewing images
 " let g:netrw_browsex_viewer="xdg-open"
 
