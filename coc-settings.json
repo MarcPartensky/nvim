@@ -22,6 +22,10 @@
 			}
 		}
 	},
+	// kubernetes
+	"yaml.schemas": {
+		"kubernetes": "/*.yaml"
+	},
 	// python
 	"python.venvPath": "~/venv/",
 	"python.venvFolders": [
