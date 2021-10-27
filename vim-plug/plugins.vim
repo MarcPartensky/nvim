@@ -197,6 +197,7 @@ Plug 'Shougo/neosnippet-snippets'
 
 " C# omni completion since coc is not mature enough
 Plug 'OmniSharp/Omnisharp-vim'
+Plug 'adamclerk/vim-razor'
 
 " Syntax highlighting for nginx
 Plug 'chr4/nginx.vim'
