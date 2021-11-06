@@ -14,6 +14,7 @@ RUN localedef -i en_US -f UTF-8 en_US.UTF-8
 RUN npm i -g yarn
 RUN pip3 install --user neovim
 RUN rm -rf /var/lib/apt/lists/*
+RUN ln -sf /usr/bin/node /usr/local/bin/node
 
 WORKDIR /root
 RUN touch .vimrc
