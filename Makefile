@@ -7,3 +7,10 @@ push:
 run:
 	docker run --name nvim -it marcpartensky/nvim
 	docker rm nvim
+setup:
+	nvim \
+		+"source $PWD/.config/nvim/vim-plug/plugins.vim" \
+		+CocInstall \
+		+PlugUpdate \
+		+UpdateRemotePlugins \
+		+qall
