@@ -9,7 +9,7 @@ run:
 	docker rm nvim
 setup:
 	nvim \
-		+"source $PWD/.config/nvim/vim-plug/plugins.vim" \
+		+"source ${HOME}/.config/nvim/vim-plug/plugins.vim" \
 		+CocInstall \
 		+PlugUpdate \
 		+UpdateRemotePlugins \
