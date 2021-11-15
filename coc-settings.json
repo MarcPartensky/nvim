@@ -22,6 +22,8 @@
 			}
 		}
 	},
+	// typescript
+	"typescript.format.enabled": false,
 	// kubernetes
 	"yaml.schemas": {
 		"kubernetes": "/*.yaml"
