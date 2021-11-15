@@ -35,8 +35,8 @@ set ignorecase
 filetype plugin indent on
 
 " Use tab not spaces
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 
 " Use macos system clipboard when yanking
 set clipboard=unnamedplus
