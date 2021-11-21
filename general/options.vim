@@ -35,8 +35,8 @@ set ignorecase
 filetype plugin indent on
 
 " Use tab not spaces
-" set tabstop=2
-" set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 
 " Use macos system clipboard when yanking
 set clipboard=unnamedplus
@@ -44,8 +44,8 @@ set clipboard=unnamedplus
 " set tab to 2 spaces
 :autocmd Filetype html,twig setlocal tabstop=2
 :autocmd Filetype html,twig setlocal shiftwidth=2
-:autocmd Filetype js,ts setlocal tabstop=4
-:autocmd Filetype js,ts setlocal shiftwidth=4
+" :autocmd Filetype js,ts setlocal tabstop=4
+" :autocmd Filetype js,ts setlocal shiftwidth=4
 set expandtab
 set smartindent
 
