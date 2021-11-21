@@ -25,4 +25,4 @@ RUN nvim \
 	+UpdateRemotePlugins \
 	+qall
 
-ENTRYPOINT nvim
+ENTRYPOINT ["nvim"]
