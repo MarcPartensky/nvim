@@ -24,4 +24,9 @@ RUN nvim \
 	+UpdateRemotePlugins \
 	+qall
 
+RUN nvim \
+	+"source /root/.config/nvim/vim-plug/plugins.vim" \
+	+CocUpdate \
+	+qall
+
 ENTRYPOINT ["nvim"]
