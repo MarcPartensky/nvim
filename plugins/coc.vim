@@ -162,7 +162,7 @@ let g:coc_global_extensions=[
             \'coc-rls',
             \'coc-react-refactor',
             \'coc-r-lsp',
-            \'coc-python',
+            \'coc-pyright',
             \'coc-go',
             \'coc-explorer',
             \'coc-yaml',
