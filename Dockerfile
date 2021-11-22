@@ -3,7 +3,7 @@ FROM debian
 LABEL maintainer="Marc Partensky <marc.partensky@gmail.com"
 ENV DEBIAN_FRONTEND=noninteractive
 
-COPY nvim /root/.config/nvim
+COPY . /root/.config/nvim
 
 RUN apt-get update
 RUN apt-get install -y software-properties-common
