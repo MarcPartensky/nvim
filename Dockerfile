@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 COPY . /root/.config/nvim
 
 RUN apt-get update
-RUN apt-get install -y software-properties-common
+RUN apt-get install -y software-properties-common gpg
 RUN add-apt-repository ppa:neovim-ppa/unstable
 RUN apt-get install -y git locales curl wget nodejs npm golang make python3-pip python3-dev neovim --no-install-recommends
 RUN localedef -i en_US -f UTF-8 en_US.UTF-8
