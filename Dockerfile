@@ -19,8 +19,8 @@ WORKDIR /root
 RUN touch .vimrc
 RUN nvim \
 	+"source /root/.config/nvim/vim-plug/plugins.vim" \
-	+CocInstall \
 	+PlugUpdate \
+	+CocInstall \
 	+UpdateRemotePlugins \
 	+qall
 
