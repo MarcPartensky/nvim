@@ -83,7 +83,11 @@ nmap gn :Gn
 " push
 :command Gp :!git push
 nmap gp :Gp
-
+" pull
+:command Gpl :!git pull
+nmap gpl :Gpl
+:command Gl :!git pull
+nmap gl :Gl
 " commit and push
 :command -nargs=+ Gt :! git add -A; git commit -m "<args>"; git push
 nmap gt :Gt 
