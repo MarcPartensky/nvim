@@ -1,3 +1,5 @@
+[![Docker](https://github.com/MarcPartensky/nvim/actions/workflows/docker-push.yml/badge.svg)](https://github.com/MarcPartensky/nvim/actions/workflows/docker-push.yml)
+
 # My neovim config
 
 This is my personal neovim config, feel free to give it a try with docker and fork it to your needs.
