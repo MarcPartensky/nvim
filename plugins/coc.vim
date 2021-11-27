@@ -158,12 +158,14 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " \'coc-tsserver',
 " \'coc-rust-analyser',
 " \'coc-pyright'
+" \'coc-python'
 let g:coc_global_extensions=[
             \'coc-omnisharp',
             \'coc-rls',
             \'coc-react-refactor',
             \'coc-r-lsp',
-            \'coc-python',
+            \'coc-jedi',
+            \'coc-pyright',
             \'coc-go',
             \'coc-explorer',
             \'coc-yaml',
