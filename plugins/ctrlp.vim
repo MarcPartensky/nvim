@@ -15,6 +15,5 @@ let g:ctrlp_custom_ignore = {
 " let g:ctrlp_user_command = 'dir %s /-n /b /s /a-d'  " Windows
 
 " Ignore files in .gitignore
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-
+" let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:ctrlp_show_hidden = 1
