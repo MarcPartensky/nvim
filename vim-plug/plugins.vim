@@ -222,6 +222,8 @@ Plug 'xolox/vim-session'
 " Docker
 Plug 'kkvh/vim-docker-tools'
 
+Plug 'mboughaba/i3config.vim'
+
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
