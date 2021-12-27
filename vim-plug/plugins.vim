@@ -223,7 +223,7 @@ Plug 'xolox/vim-session'
 Plug 'kkvh/vim-docker-tools'
 
 Plug 'mboughaba/i3config.vim'
-
+Plug 'rhysd/git-messenger.vim'
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
