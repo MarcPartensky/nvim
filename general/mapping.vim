@@ -65,7 +65,7 @@ map <F2> :echo 'Nous sommes le: ' . strftime('%c')<CR>
 
 " execute current file
 map <C-i> :!"%:p"<CR>
-map <C-m> :make run<CR>
+map <C-m> :make<CR>
 map <C-y> :!pylint %<CR>
 
 " vim-session
