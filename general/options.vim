@@ -61,7 +61,7 @@ set encoding=UTF-8
 " Choose the title of the tab as : [filename] + [path] - [editor]
 set title
 autocmd BufEnter * let &titlestring = expand("$HOST") . " " . expand("%:t") . " " . expand("%:~:h")
-# autocmd BufEnter * let &titlestring = expand("$HOST") . " " . expand("%:t") . " " .  system("git rev-parse --show-prefix")
+" autocmd BufEnter * let &titlestring = expand("$HOST") . " " . expand("%:t") . " " .  system("git rev-parse --show-prefix")
 
 tnoremap <C-l> <C-\><C-n>:call ClearTerminal()<cr>
 
