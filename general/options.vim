@@ -58,7 +58,9 @@ set completeopt+=menuone
 
 set encoding=UTF-8
 
-:set title
+" Choose the title of the tab as : [filename] + [path] - [editor]
+set title
+autocmd BufEnter * let &titlestring = expand("$HOST") . " " . expand("%:t") . " " . expand("%:~:h")
 
 tnoremap <C-l> <C-\><C-n>:call ClearTerminal()<cr>
 
