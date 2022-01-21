@@ -1,83 +1,83 @@
 {
-	"languageserver": {
-		"ccls": {
-			"command": "ccls",
-			"filetypes": [
-				"c",
-				"cpp",
-				"objc",
-				"objcpp"
-			],
-			"rootPatterns": [
-				".ccls",
-				"compile_commands.json",
-				".vim/",
-				".git/",
-				".hg/"
-			],
-			"initializationOptions": {
-				"cache": {
-					"directory": "/tmp/ccls"
-				}
-			}
-		}
-	},
-	// typescript
-	"typescript.format.enabled": false,
-	// kubernetes
-	"yaml.schemas": {
-		"kubernetes": "/*.yaml"
-	},
-	// python
-	"python.venvPath": "~/venv/",
-	"python.venvFolders": [
-		"/root/.pyenv/versions/3.9.2/envs"
-	],
-	// "python.jediEnabled": true,
-	"suggest.timeout": 5000,
-	"python.linting.pylintEnabled": true,
-	"python.linting.flake8Enabled": false,
-	"python.linting.pylintPath": "pylint",
-	"python.formatting.provider": "black",
-	// formating
-	"coc.preferences.formatOnSaveFiletypes": [
-		"python",
-		"css",
-		"markdown",
-		"javascript",
-		"graphql",
-		"html",
-		"yaml",
-		"json",
-		"java"
-	],
-	// code lens
-	"codeLens.enable": true,
-	// java
-	"java.referencesCodeLens.enabled": true,
-	"java.implementationsCodeLens.enabled": true,
-	"java.completion.enabled": true,
-	// "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
-	// c#
-	"omnisharp.version": "lastest",
-	"omnisharp.trace.server": "information",
-	"omnisharp.debug.server": true,
-	// coc explorer
-	"explorer.width": 30,
-	"explorer.activeMode": true,
-	"explorer.previewAction.onHover": false,
-	"explorer.file.reveal.whenOpen": true,
-	// "explorer.file.autoReveal": false,
-	"explorer.file.showHiddenFiles": true,
-	"explorer.icon.enabledNerdFont": true,
-	"explorer.icon.source": "vim-devicons",
-	"explorer.file.child.template": "[git | 2] [selection | clip | 1] [indent][icon | 1] [diagnosticError & 1][filename omitCenter 1][modified][readonly] [linkIcon & 1][link growRight 1 omitCenter 5]",
-	"explorer.keyMappings": {
-		"<C-l>": [
-			"expandable?",
-			"expand",
-			"open"
-		],
-		"v": "open.vsplit"
-	}
+    "languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "filetypes": [
+                "c",
+                "cpp",
+                "objc",
+                "objcpp"
+            ],
+            "rootPatterns": [
+                ".ccls",
+                "compile_commands.json",
+                ".vim/",
+                ".git/",
+                ".hg/"
+            ],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                }
+            }
+        }
+    },
+    // typescript
+    "typescript.format.enabled": false,
+    // kubernetes
+    "yaml.schemas": {
+        "kubernetes": "/*.yaml"
+    },
+    // python
+    "python.venvPath": "~/venv/",
+    "python.venvFolders": [
+        "/root/.pyenv/versions/3.9.2/envs"
+    ],
+    // "python.jediEnabled": true,
+    "suggest.timeout": 5000,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.pylintPath": "pylint",
+    "python.formatting.provider": "black",
+    // formating
+    "coc.preferences.formatOnSaveFiletypes": [
+        "python",
+        "css",
+        "markdown",
+        // "javascript",
+        "graphql",
+        "html",
+        "yaml",
+        "json",
+        "java"
+    ],
+    // code lens
+    "codeLens.enable": true,
+    // java
+    "java.referencesCodeLens.enabled": true,
+    "java.implementationsCodeLens.enabled": true,
+    "java.completion.enabled": true,
+    // "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+    // c#
+    "omnisharp.version": "lastest",
+    "omnisharp.trace.server": "information",
+    "omnisharp.debug.server": true,
+    // coc explorer
+    "explorer.width": 30,
+    "explorer.activeMode": true,
+    "explorer.previewAction.onHover": false,
+    "explorer.file.reveal.whenOpen": true,
+    // "explorer.file.autoReveal": false,
+    "explorer.file.showHiddenFiles": true,
+    "explorer.icon.enabledNerdFont": true,
+    "explorer.icon.source": "vim-devicons",
+    "explorer.file.child.template": "[git | 2] [selection | clip | 1] [indent][icon | 1] [diagnosticError & 1][filename omitCenter 1][modified][readonly] [linkIcon & 1][link growRight 1 omitCenter 5]",
+    "explorer.keyMappings": {
+        "<C-l>": [
+            "expandable?",
+            "expand",
+            "open"
+        ],
+        "v": "open.vsplit"
+    }
 }

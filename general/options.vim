@@ -46,6 +46,8 @@ set clipboard=unnamedplus
 :autocmd Filetype html,twig setlocal shiftwidth=2
 " :autocmd Filetype js,ts setlocal tabstop=4
 " :autocmd Filetype js,ts setlocal shiftwidth=4
+:autocmd Filetype js,ts setlocal tabstop=2
+:autocmd Filetype js,ts setlocal shiftwidth=2
 set expandtab
 set smartindent
 
@@ -55,6 +57,8 @@ set completeopt+=noinsert
 set completeopt+=menuone
 
 set encoding=UTF-8
+
+:set title
 
 tnoremap <C-l> <C-\><C-n>:call ClearTerminal()<cr>
 
