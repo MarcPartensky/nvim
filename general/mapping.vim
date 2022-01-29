@@ -12,6 +12,10 @@ vnoremap <C-Insert> "_dP
 vmap <M-[>2;5+ y
 " Select all
 noremap <C-S-Insert> <Esc>ggVG
+nnoremap <C-s> :w<cr>
+
+nnoremap PU <cmd>PlugUpdate<cr>
+nnoremap PC <cmd>PlugClean<cr>
 
 " if has('nvim')
 "     " map <A-n> :bnext<CR>

@@ -50,7 +50,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline'
 
 "markdown preview
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'marcpartensky/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 "show trailing spaces
 Plug 'ntpeters/vim-better-whitespace'
@@ -213,6 +213,7 @@ Plug 'nelsyeung/twig.vim'
 
 " Code completion
 Plug 'neovim/nvim-lspconfig'
+
 Plug 'glepnir/lspsaga.nvim'
 
 " Vim session
@@ -225,6 +226,7 @@ Plug 'kkvh/vim-docker-tools'
 Plug 'mboughaba/i3config.vim'
 Plug 'rhysd/git-messenger.vim'
 Plug 'Pocco81/AutoSave.nvim'
+Plug 'mzlogin/vim-markdown-toc'
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
