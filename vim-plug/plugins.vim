@@ -29,7 +29,7 @@ Plug 'dylanaraps/wal.vim'
 " Using plug
 
 "fade inactive buffers
-Plug 'TaDaa/vimade'
+"Plug 'vigoux/LanguageTool.nvim' Plug 'TaDaa/vimade'
 
 "floating window inside terminal
 Plug 'voldikss/vim-floaterm'
