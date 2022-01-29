@@ -224,6 +224,7 @@ Plug 'kkvh/vim-docker-tools'
 
 Plug 'mboughaba/i3config.vim'
 Plug 'rhysd/git-messenger.vim'
+Plug 'Pocco81/AutoSave.nvim'
 " Better synxtax hightlighting available for neovim 0.5
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
