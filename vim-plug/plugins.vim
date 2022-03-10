@@ -26,6 +26,7 @@ Plug 'dylanaraps/wal.vim'
 Plug 'rainglow/vim'
 Plug 'pineapplegiant/spaceduck'
 Plug 'dylanaraps/wal.vim'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 " Using plug
 
 "fade inactive buffers
