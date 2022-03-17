@@ -17,6 +17,9 @@ set laststatus=0
 set noshowcmd
 set cmdheight=1
 
+" remove lower bar
+set laststatus=0
+
 " highlighting
 syntax on
 
