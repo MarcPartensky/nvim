@@ -95,9 +95,15 @@ if has('mac') && has('vim_starting')
   \ }
 endif
 
-if has('clipboard') && has('vim_starting')
-  set clipboard& clipboard^=unnamed,unnamedplus
+if system('uname -s') == "Darwin\n"
+  set clipboard=unnamed "OSX
+else
+  set clipboard=unnamedplus "Linux
 endif
+
+# if has('clipboard') && has('vim_starting')
+#   set clipboard& clipboard^=unnamed,unnamedplus
+# endif
 
 let g:coc_node_path = "/usr/local/bin/node"
 let g:coc_npm_path = "/usr/local/bin/npm"
