@@ -24,6 +24,7 @@
     },
     // typescript
     "typescript.format.enabled": false,
+    "tsserver.maxTsServerMemory": 1000000,
     // kubernetes
     "yaml.schemas": {
         "kubernetes": "/*.yaml"
