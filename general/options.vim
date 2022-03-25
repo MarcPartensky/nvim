@@ -101,9 +101,9 @@ else
   set clipboard=unnamedplus "Linux
 endif
 
-# if has('clipboard') && has('vim_starting')
-#   set clipboard& clipboard^=unnamed,unnamedplus
-# endif
+" if has('clipboard') && has('vim_starting')
+"   set clipboard& clipboard^=unnamed,unnamedplus
+" endif
 
 let g:coc_node_path = "/usr/local/bin/node"
 let g:coc_npm_path = "/usr/local/bin/npm"
