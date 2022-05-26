@@ -17,3 +17,4 @@ plugins:
 		+PlugUpdate \
 		+UpdateRemotePlugins \
 		+qall
+.PHONY: plugins
