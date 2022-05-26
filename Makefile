@@ -7,8 +7,10 @@ push:
 run:
 	docker run --name nvim -it marcpartensky/nvim
 	docker rm nvim
-setup:
+setup: node plugins
+node:
 	sudo ln -sf $(which node) /usr/local/bin/node
+plugins:
 	nvim \
 		+"source ${HOME}/.config/nvim/vim-plug/plugins.vim" \
 		+CocInstall \
