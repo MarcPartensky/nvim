@@ -12,7 +12,7 @@ run:
 setup: node python plugins
 python:
 	python -m ensurepip
-	pip install neovim
+	python -m pip install neovim
 node:
 	sudo ln -sf ${NODE_PATH} /usr/local/bin/node
 plugins:
