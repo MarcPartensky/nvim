@@ -1,3 +1,5 @@
+NODE_PATH = `which node`
+
 build:
 	docker build .. -f Dockerfile -t marcpartensky/nvim
 build_alpine:
@@ -7,9 +9,12 @@ push:
 run:
 	docker run --name nvim -it marcpartensky/nvim
 	docker rm nvim
-setup: node plugins
+setup: node python plugins
+python:
+	python -m ensurepip
+	pip install neovim
 node:
-	sudo ln -sf $(which node) /usr/local/bin/node
+	sudo ln -sf ${NODE_PATH} /usr/local/bin/node
 plugins:
 	nvim \
 		+"source ${HOME}/.config/nvim/vim-plug/plugins.vim" \
